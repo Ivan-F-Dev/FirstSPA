@@ -1,0 +1,43 @@
+/*Dialogs*/
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.dialogsItems {
+
+}
+
+.messages {
+    margin-left: 5px;
+}
+
+.write {
+
+}
+
+.form {
+    display: block;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid brown;
+}
+
+.button {
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: brown;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}

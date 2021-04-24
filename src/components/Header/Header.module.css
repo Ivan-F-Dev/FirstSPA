@@ -1,0 +1,18 @@
+/*Header*/
+.header {
+    grid-area: h;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+  }
+  
+  .header img {
+    margin-left: 8px;
+    height: 90%;
+  }
+
+  .loginBlock {
+      display: inline-block;
+  }
+

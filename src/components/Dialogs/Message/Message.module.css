@@ -1,0 +1,40 @@
+.message {
+    margin-top: 5px;
+}
+
+.from {
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.fromImg {
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.messageFrom {
+
+}
+
+.answer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.answerImg {
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.messageAnswers{
+
+}

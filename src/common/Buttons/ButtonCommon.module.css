@@ -1,0 +1,11 @@
+.ButtonCommon {
+    cursor: pointer;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: gainsboro;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}

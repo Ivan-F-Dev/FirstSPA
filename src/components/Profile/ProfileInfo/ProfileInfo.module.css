@@ -1,0 +1,63 @@
+.personWrap {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.statusAndId {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: brown 2px solid;
+}
+
+.person {
+    display: flex;
+}
+
+.personImgWrap {
+    width: 24%;
+    line-height: 0;
+}
+
+.personImg {
+    border-radius: 5%;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.selectFileInput {
+    margin-top: 10px;
+    width: 105px;
+    font-size: 12px;
+    border: brown 2px solid;
+    border-radius: 5px;
+    background-color: brown;
+    padding: 3px;
+}
+
+.personData {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.dataName {
+    font-weight: 700;
+}
+
+.dataOtherWrap {
+    display: inline-block;
+    border: brown 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dataOther {
+    padding: 5px;
+    display: flex;
+}

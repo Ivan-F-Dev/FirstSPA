@@ -1,0 +1,17 @@
+.friend {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.friendImg {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}

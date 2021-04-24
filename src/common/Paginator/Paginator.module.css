@@ -1,0 +1,15 @@
+.page {
+    width: 20px;
+}
+
+.selectedPage {
+    font-weight: 700;
+    color: brown;
+    transition: 0.3s;
+}
+
+.paginator {
+display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}

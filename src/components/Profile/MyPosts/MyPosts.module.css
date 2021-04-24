@@ -1,0 +1,35 @@
+.myPosts {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.wrap {
+    padding: 5px 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.wrapChild_1_form {
+
+}
+.wrapChild_2_button {
+    height: 60%;
+}
+
+.textarea {
+    border-radius: 5px;
+    border: 2px solid brown;
+
+}
+
+.button {
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}

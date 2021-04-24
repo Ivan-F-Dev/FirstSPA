@@ -1,0 +1,37 @@
+/*Navigation*/
+.navBar {
+    grid-area: n;
+    background-color: dimgray;
+    border-radius: 5px;
+
+}
+
+.links {
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: brown;
+}
+
+.activeLink {
+    color: gold;
+}
+
+.friends {
+    background-color: gainsboro;
+}
+
+.title {
+    padding-left: 20px;
+}
+
+.friendsItem {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

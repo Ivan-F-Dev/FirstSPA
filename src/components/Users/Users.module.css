@@ -1,0 +1,57 @@
+.users {
+
+}
+
+.usersItem {
+    margin-right: 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.imgItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.infoItem {
+margin-right: 10px;
+}
+
+.buttonItem {
+
+}
+
+.buttonItem button {
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.unfollow {
+    border: 2px solid gold;
+}
+
+.follow {
+    border: 2px solid brown;
+}
+
+.usersItem + .usersItem {
+    margin-top: 10px;
+}
+
+.img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.selectedPage {
+    font-weight: 700;
+    color: brown;
+    transition: 0.3s;
+}
