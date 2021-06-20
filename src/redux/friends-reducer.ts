@@ -18,7 +18,7 @@ let initialState: InitialStateType = {
     currentPage: 1,
 }
 
-const friendsReducer = (state = initialState, action: any) => {
+const friendsReducer = (state:InitialStateType = initialState, action: SetFriendsActionType | SetTotalFriendsCountActionType): InitialStateType => {
     switch (action.type) {
         case SET_FRIENDS:
             return {...state, friends: action.friends}
@@ -29,15 +29,21 @@ const friendsReducer = (state = initialState, action: any) => {
     }
 }
 
-export const setFriends = (friends: any) => ({type: SET_FRIENDS, friends})
-export const setTotalFriendsCount = (count: any) => ({type: SET_TOTAL_FRIENDS_COUNT, count})
+type SetFriendsActionType = {
+    type: typeof SET_FRIENDS
+    friends: Array<object>
+}
+export const setFriends = (friends: Array<object>):SetFriendsActionType => ({type: SET_FRIENDS, friends})
 
-export const getFriends = (page: any, pageSize: any) => async (dispatch: any) => {
-    debugger
+type SetTotalFriendsCountActionType = {
+    type: typeof SET_TOTAL_FRIENDS_COUNT
+    count: number
+}
+export const setTotalFriendsCount = (count: number):SetTotalFriendsCountActionType => ({type: SET_TOTAL_FRIENDS_COUNT, count})
+
+export const getFriends = (page: number, pageSize: number) => async (dispatch: any) => {
     let data = await usersAPI.getFriends(page, pageSize)
-    debugger
     dispatch(setFriends(data.items));
-
     dispatch(setTotalFriendsCount(data.totalCount));
 }
 
